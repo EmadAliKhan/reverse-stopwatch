@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #746161;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url("https://img.freepik.com/free-photo/black-textured-background_24972-764.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.stopwatch{
+
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px 40px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+button{
+    margin-top: 20px;
+}
+.btn{
+    background: none;
+    border: none;
+}
+h1{
+    display: inline;
+}
