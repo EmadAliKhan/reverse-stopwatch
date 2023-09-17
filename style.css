@@ -39,3 +39,14 @@ button{
 h1{
     display: inline;
 }
+.inp,.addBtn{
+    color: white;
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: white;
+}
+.addBtn:hover{
+    color: black;
+}

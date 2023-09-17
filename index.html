@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="mb-3">
+        <input type="number" placeholder="SetTimer" id="setTimer" class="py-2 bg-transparent border inp">
+        <button class="px-3 py-2 bg-danger addBtn" onclick="addVal()">Add</button>
+    </div>
     <div class="stopwatch bg-black">
         <h1 class="fw-bold" id="min"> 00 </h1>
         <h1 class="fw-bold"> : </h1>
@@ -17,12 +21,12 @@
     </div>
     <div>
         <button class="btn bg-danger text-white mx-2 fs-5 px-3" onclick="startTimer()" id="startBtn">Start</button>
-        <button class="btn bg-success text-white mx-2 fs-5 px-3" onclick="stopTimer()" id="stopBtn">Stop</button>
+        <button class="btn bg-success text-white mx-2 fs-5 px-3" onclick="stopTimer()">Stop</button>
         <button class="btn bg-primary text-white mx-2 fs-5 px-3" onclick="resetTimer()">Reset</button>
     </div>
 
 
 
-    <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
